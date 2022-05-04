@@ -1,0 +1,478 @@
+.container {
+  /* box-shadow:  5px 10px 8px grey, -5px 10px 8px grey; */
+  padding-right: 20px;
+  padding-left: 20px;
+  width: 97vw;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+nav {
+  font-family: Quicksand;
+  font-weight: 900;
+  box-shadow: 2px 2px 6px rgba(15, 30, 73, 0.5);
+  border: none;
+  box-shadow: none;
+}
+
+.navContainer {
+  border: none !important;
+  box-shadow: none !important;
+}
+
+hr {
+  margin: 16px 0;
+}
+
+ul.list-unstyled {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+ul.list-unstyled > li {
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+body, h4 > a, ul.list-unstyled > li > a {
+  color: rgb(15, 30, 73) !important;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+ul.list-unstyled > li > a {
+  background-color: rgba(15, 30, 73);
+  /* background-color: rgba(255, 0, 0, 0.5); */
+  padding: 6px 12px;
+  border-radius: 6px;
+  color: #ffffff !important;
+  letter-spacing: 2px;
+}
+
+ul.list-unstyled > li > a:hover {
+  text-decoration: none;
+  background-color: rgba(15, 30, 73, 0.8);
+  /* background-color: rgba(255, 0, 0, 0.6); */
+}
+
+h4 > a:hover {
+  color: #ff2f2f !important;
+}
+
+img#logo_full {
+  width: 200px;
+  display: flex;
+  margin: 0 auto !important;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.logo_title_container {
+  display: flex;
+  align-self: flex-end;
+  margin-top: -8px;
+}
+
+#logo_title {
+  margin-right: 8px;
+}
+
+h2 > a {
+  color: rgb(15, 30, 73);
+  font-size: 18px;
+}
+h2 > a:hover {
+  color: rgb(15, 30, 73);
+  text-decoration: none;
+}
+
+.navbar {
+  border: none;
+  margin-bottom: 0px;
+}
+
+.navbar-inverse {
+  background-color: rgb(15, 30, 73);
+}
+
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+  font-size: 18px;
+  letter-spacing: 1.5px;
+  font-family: "Quicksand" !important;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #ff2f2f;
+  color: hsl(0, 100%, 65%);
+  font-weight: 900;
+  font-family: "Quicksand";
+}
+
+.well {
+  box-shadow: 2px 2px 6px rgba(15, 30, 73, 0.5), -2px 2px 6px rgba(15, 30, 73, 0.5);
+}
+
+.loggedin {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar-nav > li, .navbar-brand > li {
+  padding-left: 10px;
+}
+
+#search {
+  width: 260px;
+  padding-top: 8px;
+  margin-left: 10px;
+}
+
+.loggedin > a {
+  width: 48%;
+}
+
+.input-group > input {
+  letter-spacing: 1px;
+}
+
+tr.social > td {
+  display: inline-flex;
+  justify-content: space-between;
+  padding-right: 20%;
+}
+
+tr.social > td > a:hover {
+  color: #ff2f2f !important;
+}
+
+td > a {
+  color: rgb(15, 30, 73) !important;
+}
+
+.col-md-4 {
+  position: sticky;
+  top: 70px;
+}
+
+.singlepost {
+  box-shadow: 2px 2px 6px grey , -2px 2px 6px grey !important;
+  padding: 10px 20px 20px 20px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+}
+
+.col-md-8 {
+  padding: 0px 60px 0px 60px;
+}
+
+div.col-md-8 > p {
+  font-size: 15px;
+  text-align: justify;
+}
+
+.singlepost > a > img {
+  border-radius: 4px;
+  width: 100%;
+  margin: auto;
+}
+
+.img-responsive {
+  width: 100%;
+}
+
+td > h4, td > p, th > p{
+  font-size: 15px;
+}
+
+b {
+  font-weight: 400;
+}
+
+/* .pager > li > a {
+  box-shadow: 2px 2px 6px rgba(15, 30, 73, 0.5), -2px 2px 6px rgba(15, 30, 73, 0.5);
+} */
+
+.pager li .active_link {
+  background: #337ab7 !important;
+  color: white;
+}
+
+.inline {
+  display: inline-flexbox;
+}
+
+.hashtag {
+  color: #ff2f2f;
+}
+
+#aboutus {
+  text-align: justify;
+}
+
+#aboutus > p > a {
+  background-color: rgb(15, 30, 73);
+  color: #ffffff;
+  border-radius: 6px;
+  padding: 6px 12px;
+  letter-spacing: 2px;
+  margin-right: 10px;
+}
+
+#aboutus > p > a:hover {
+  text-decoration: none;
+  background-color: rgba(15, 30, 73, 0.9);
+}
+
+#aboutusPic {
+  width: 460px;
+  margin-top: 4px;
+  margin-bottom: 12px;
+  margin-right: 20px;
+  float: left;
+}
+
+h4 > a:link, h4 > a:visited, h4 > a:hover, h4 > a:active {
+  text-decoration: none;
+}
+
+
+/* Carousel gallery  - Kiemelt gazdikeresők*/
+
+.kiemeltContainer {
+  box-shadow: 2px 2px 6px rgba(15, 30, 73, 0.5), -2px 2px 6px rgba(15, 30, 73, 0.5);
+  padding: 20px 10px;
+}
+/* Hide the images by default */
+.mySlidesGallery {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 20px;
+  margin: 0px 15px 0px 15px;
+  color: hsl(0, 100%, 65%);
+  font-weight: bold;
+  font-size: 30px;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.prev {
+  left: 0px;
+  border-radius: 0px 6px 6px 0px;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 6px 0 0 6px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  background-color: rgba(15, 30, 73, 1);
+  text-decoration: none;
+  color: hsl(0, 100%, 65%);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: white;
+  color: hsl(0, 100%, 65%);
+  background-color: rgba(15, 30, 73, 1);
+  font-size: 12px;
+  padding: 8px 20px 8px 12px;
+  position: absolute;
+  font-size: 18px;
+}
+
+/* Container for image text */
+#caption {
+  background-color: rgba(15, 30, 73, 1);
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  padding: 4px 16px;
+  margin-bottom: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+  padding: 4px;
+  height: 90px;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+.thumbnails {
+  margin-bottom: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+/* Carousel Gallery End */
+
+/* Kutyatár */
+
+.dogdbMainCont {
+  display: grid;
+  height: 90vh;
+  text-align: center;
+  background-size: cover;
+  color: hsl(227, 76%, 18%);
+  padding: 6% 10%;
+  margin-bottom: 20px;
+  align-items: center;
+  background-image: url(../images/006.jpg);
+  background-size: cover;
+  background-position: center;
+  box-shadow: 2px 2px 6px grey , -2px 2px 6px grey !important;
+  font-size: 18px;
+  justify-items: center;
+}
+
+.dogdbMainCont > h4 {
+  font-size: 24px;
+}
+
+.dogdbMainCont > p {
+  background-color: rgba(245, 245, 245, 0.65);
+  border-radius: 6px;
+  padding: 10px;
+  width: 300px;
+}
+
+.dogdbMainCont > a {
+  padding: 10px 16px;
+  font-size: 18px;
+  line-height: 1.3333333;
+  border-radius: 6px;
+  width: 300px;
+}
+
+/* Kutyatár End*/
+
+@media (min-width: 1600px) {
+  .container {
+    max-width: 1400px;
+  }
+
+  .singlepost {
+    padding: 10px 60px 20px 60px;
+  }
+}
+
+@media (max-width: 1400px) {
+  .singlepost {
+    padding: 4px 60px 14px 60px;
+  }
+  .container {
+    max-width: 1300px;
+  }
+}
+
+@media (min-width: 600px) {
+  tr > th > p {
+    min-width: 140px;
+  }
+}
+
+@media (max-width: 600px) {
+  .demo {
+    height: 120px;
+  }
+
+  .dogdbMainCont > p {
+    width: 200px;
+  }
+
+  .dogdbMainCont {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1000px) {
+  .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .column {
+    width: 25%;
+  }
+
+  .col-md-8 {
+    padding: 0px 10px 0px 10px;
+    margin: 0px 4px 0px 4px;
+  }
+
+  .contact {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .prev,
+  .next {
+    padding: 4px 8px;
+  }
+
+  .singlepost {
+    padding: 4px 10px 10px 10px;
+  }
+}
+
+@media (max-width: 600px) {
+  .column {
+    width: 33.333%;
+  }
+
+  #aboutusPic {
+    width: 90vw;
+  }
+}
+
+@media (max-width: 500px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media (max-width: 300px) {
+  th > p, td > p, td > h4 {
+    font-size: 13px;
+  }
+
+  th > p, th {
+    width: 90px !important;
+  }
+}
